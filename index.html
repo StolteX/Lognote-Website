@@ -1,88 +1,246 @@
 <!DOCTYPE html>
-<html dir="auto" lang="en">
+<html lang="en">
 <head>
-	<meta charset="UTF-8" />
-	<title>Lognote</title>
-
-	<meta name="description" content="Lognote, quickly and easily create notes with timestamps.    In everyday life you often need the possibility to log some time exactly, be it at time-critical instances or in a meeting to be able to track them later." />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" href="content/image/ohx1kirub4vqv65kg0ty.png" />
-
-	<meta property="og:title" content="Lognote" />
-	<meta property="og:description" content="Lognote, quickly and easily create notes with timestamps.    In everyday life you often need the possibility to log some time exactly, be it at time-critical instances or in a meeting to be able to track them later." />
-	<meta property="og:image" content="assets/og-image.png" />
-
-	<link rel="stylesheet" href="assets/tobi.css" />
-	<link rel="stylesheet" href="assets/style.css" />
-
+    <!-- Uniocde -->
+    <meta charset="utf-8">
+    <!--[if IE]>
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <![endif]-->
+    <!-- First Mobile Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Description -->
+    <meta name="description" content="Lognote, quickly and easily create notes with timestamps">
+    <!-- Page Kewords -->
+    <meta name="keywords" content="Lognote">
+    <!-- Site Author -->
+    <meta name="author" content="Alexander Stolte">
+    <!-- Title -->
+    <title>Lognote | Create notes with timestamps</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstrap 4 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/css/swiper.min.css" type="text/css">
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/fonts/fontawesome/font-awesome.min.css">
+    <!-- OWL Carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css" type="text/css">
+    <!-- CSS Animate -->
+    <link rel="stylesheet" href="assets/css/animate.min.css" type="text/css">
+    <!-- Style -->
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
 </head>
-	<body>
-		<main>
-<header class="app__header container">
-	<div class="app__logo-wrapper"> <img class="app__logo" src="content/image/eqykhhrtm8notc23h1ig.png" alt="Lognote"></div>
-	<div class="app__infos">
-		<h1 class="app__name">Lognote</h1>
-		<p class="app__description">Lognote, quickly and easily create notes with timestamps.    In everyday life you often need the possibility to log some time exactly, be it at time-critical instances or in a meeting to be able to track them later.</p>
-		<div class="app__buttons app__buttons--desktop">
-			<a href="https://apps.apple.com/us/app/lognote/id1591743668" class="app__button-ios" target="_blank" title="Download on the App Store">
-				<img src="content/image/fwmzj2jj5bo7t538ayo7.svg" alt="Download on the App Store">
-			</a>
-		</div>
-	</div>
-</header>
-<div class="app__buttons app__buttons--mobile container">
-	<a href="https://apps.apple.com/us/app/lognote/id1591743668" class="app__button-ios" target="_blank" title="Download on the App Store">
-		<img src="content/image/fwmzj2jj5bo7t538ayo7.svg" alt="Download on the App Store">
-	</a>
-</div>
-<section class="app__screenshots app__section">
-	<div class="container">
-		<h2 class="app__section-title">Screenshots</h2>
-	</div>
-	<div class="app__screenshots-wrapper container-desktop">
-		<div class="app__screenshots-list">
-			<a href="content/image/sabrfr6hm07xa1rsmqmu.png" class="lightbox">
-				<img src="content/image/sabrfr6hm07xa1rsmqmu.png" class="app__screenshot" alt="" />
-			</a>
-			<a href="content/image/iwnxjzirq2cx8ykynkvt.png" class="lightbox">
-				<img src="content/image/iwnxjzirq2cx8ykynkvt.png" class="app__screenshot" alt="" />
-			</a>
-			<a href="content/image/axnunqvtqbwjnsfunx48.png" class="lightbox">
-				<img src="content/image/axnunqvtqbwjnsfunx48.png" class="app__screenshot" alt="" />
-			</a>
-		</div>
-	</div>
-</section>
-<section class="app__fulldescription app__section container">
-	<h2 class="app__section-title">Description</h2>
-	<div class="app__fulldescription-content">
-		<p>Lognote, quickly and easily create notes with timestamps. In everyday life you often need the possibility to log some time exactly, be it at time-critical instances or in a meeting to be able to track them later.</p>
-<p>Something missing? Then give me feedback.</p>
+<body class="scheme4">
 
+	<!-- Back to top button -->
+	<a id="button"></a>
+
+	<!-- Section Navbar -->
+	<nav class="navbar-1 navbar navbar-expand-lg">
+        <div class="container navbar-container">
+            <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt="Lognote"></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">               	
+	                <li class="nav-item">
+	                    <a href="#section-features2" class="nav-link scroll-down">Features</a>
+	                </li>
+	                <li class="nav-item">
+	                    <a href="#section-download1" class="nav-link scroll-down">Get Started</a>
+	                </li>
+	               <!--  <li class="nav-item">
+	                    <a href="Blog-List.html" class="nav-link">News</a>
+	                </li>-->
+                </ul>
+            </div>
+        </div>
+        <!-- container -->
+    </nav>
+
+	<style>
+		.img-small {
+			width: 350px;
+			height: auto; /* Damit das Seitenverhältnis beibehalten wird */
+		}
+		.img-medium {
+			width: 400px;
+			height: auto; /* Damit das Seitenverhältnis beibehalten wird */
+		}
+	</style>
+
+	<!-- /.Section Navbar -->
+	<!-- Section Slider 1 -->
+    <div id="section-slider1">
+	  	<div class="swiper-container">
+		    <div class="swiper-wrapper d-none">
+		    	<!-- Item -->
+				<div class="swiper-slide">
+					<div class="slider-content">
+						<div class="container">
+							<div class="row">
+								<div class="left col-12 col-sm-12 col-md-7">
+									<h1 class="ez-animate" data-animation="fadeInLeft">Minimalist timestamp notes app to quickly capture the important things.</h1>
+									<p class="ez-animate" data-animation="fadeInLeft">With its simple and intuitive interface, you can easily create, organize, and track your timestamped notes.</p>
+									<ul>
+										<li><a href="https://apps.apple.com/lu/app/lognote/id1591743668?l=de-DE&platform=iphone"><img class="img-fluid ez-animate" src="assets/images/img-appstore.png" alt="Lognote" data-animation="fadeInUp"></a></li>
+										<!-- <li><a href="#"><img class="img-fluid ez-animate" src="assets/images/img-googleplay.png" alt="Lognote" data-animation="fadeInUp"></a></li> -->
+									</ul>
+								</div>
+								<div class="right ez-animate col-12 col-sm-12 col-md-5" data-animation="fadeInRight">
+									<img class="img-fluid img-medium" src="assets/images/app-mockup-1.png" alt="Lognote">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.Item -->
+		    </div>
+		</div>
 	</div>
-</section>
-		</main>
-		<footer class="footer">
+	<!-- /.Section Slider 1 -->
+	<!-- Features Wrap -->
+	<div class="features-wrap">
+		<!-- Section Features 2 -->
+		<div id="section-features2">
 			<div class="container">
-				<div class="footer__container">
-					<p class="footer__love">
-						<script>document.write('&copy;' + (new Date()).getFullYear());</script><noscript>&copy;2021</noscript> All rights reserved
-					</p>
-					<ul class="footer__links">
-							<li class="footer__link">
-								<a href="page-1.html">Privacy</a>
-							</li>
+				<div class="row">
+					<div class="left col-sm-12 col-md-6">
+						<div class="img-container">
+							<!-- <img class="circleicon1 ez-animate" src="assets/images/img-circleicon1.png" alt="Lognote" data-animation="fadeInUp"> -->
+							<img class="img-fluid ez-animate img-small" src="assets/images/app-mockup-2.png" alt="Lognote" data-animation="fadeInLeft">
+						</div>
+					</div>
+					<div class="right my-auto col-sm-12 col-md-6">
+						<h6 class="clscheme">01 – Create groups</h6>
+						<h2>Everything starts with a group</h2>
+						<p>Experience a clean and minimalist design that makes navigating your groups effortless. Easily view all your organized notes in one place, with a simple layout that keeps everything intuitive and accessible. Quickly find, create, and manage your notes without distractions.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.Section Features 2 -->
+		<!-- Section Features 2 -->
+		<div class="section-features2">
+			<div class="container">
+				<div class="row">
+					<div class="right my-auto col-sm-12 col-md-6">
+						<h6 class="clscheme">02 – find</h6>
+						<h2>Search and Filter</h2>
+						<p>Stay organized and efficiently find exactly what you need with intuitive search and filter features, keeping everything at your fingertips.</p>
+					</div>
+					<div class="left col-sm-12 col-md-6">
+						<div class="img-container">
+							<!-- <img class="circleicon1 ez-animate" src="assets/images/img-circleicon1.png" alt="Lognote" data-animation="fadeInUp"> -->
+							<img class="img-fluid ez-animate img-small" src="assets/images/app-mockup-3.png" alt="Lognote" data-animation="fadeInRight">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /.Section Features 2 -->
+		<!-- /.Section Features 2 -->
+				<!-- Section Features 2 -->
+				<div class="section-features2">
+					<div class="container">
+						<div class="row">
+							<div class="right my-auto col-sm-12 col-md-6">
+								<h6 class="clscheme">03 – Light Mode</h6>
+								<h2>Change it on the fly</h2>
+								<p>Whether dark or light, the app looks excellent in both modes</p>
+							</div>
+							<div class="left col-sm-12 col-md-6">
+								<div class="img-container">
+									<!-- <img class="circleicon1 ez-animate" src="assets/images/img-circleicon1.png" alt="Lognote" data-animation="fadeInUp"> -->
+									<img class="img-fluid ez-animate img-small" src="assets/images/app-mockup-4.png" alt="Lognote" data-animation="fadeInRight">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- /.Section Features 2 -->
+	</div>
+	<!-- /.Features Wrap -->
+	<!-- Section Download 1 -->
+	<div id="section-download1">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<h1>Download Lognote Today</h1>
+					<p>and create timestamped notes</p>
+					<ul>
+						<li>
+							<a href="https://apps.apple.com/lu/app/lognote/id1591743668?l=de-DE&platform=iphone">
+								<img class="img-fluid ez-animate" src="assets/images/img-appstore.png" alt="Lognote" data-animation="fadeInUp">
+							</a>
+						</li>
+						<!-- <li>
+							 <a href="#">
+								<img class="img-fluid ez-animate" src="assets/images/img-googleplay.png" alt="Lognote" data-animation="fadeInUp">
+							</a>
+						</li> -->
 					</ul>
 				</div>
 			</div>
-		</footer>
+		</div>
+	</div>
+    <!-- /.Section Download 1 -->
+    <!-- Section Footer -->
+    <div id="section-footer">
+		<div class="container text-center">
+			<div class="footer-widget">
+				<div class="row">
+					<div class="left col-md-4">
+						<a href="#section-slider1" class="scroll-down"><img class="brand-logo" src="assets/images/logo.png" alt="Lognote"></a>
+					</div>
+					<div class="center col-md-4 d-flex justify-content-center">
+						<div class="footer-link" style="margin-right: 10px;">
+							<p><a href="privacy.html">Privacy</a></p>
+						</div>
+						<p style="cursor: default; margin-right: 10px; margin-left: 10px;">|</p>
+						<div class="footer-link" style="margin-left: 10px;">
+							<p><a href="privacy.html">Legal Notice</a></p>
+						</div>
+					</div>        
+				</div>
+			</div>
+		</div>
+		
+		
+        <div class="footer-copyright container-fluid ">
+            <div class="col-12">
+                <p>©2024 Alexander Stolte</p>
+            </div>
+        </div>
+    </div>
+    <!-- /.Section Footer -->
+	
+	<!-- Cookiebot consent collection -->
+	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="5a49cb06-4d24-4d3a-8c64-149977346cc7" data-blockingmode="auto" type="text/javascript"></script>
 
-		<script type="text/javascript" src="assets/tobi.min.js" /></script>
-		<script>
-			window.onload = function () {
-				var tobi = new Tobi();
-			};
-		</script>
 
-  </body>
+
+	<!-- Javascript Files -->
+	<script src="assets/js/jquery.min.js"></script>
+	<!-- Bootstrap -->
+	<script src="assets/js/bootstrap.min.js"></script>
+	<!-- Swiper Slider -->
+	<script src="assets/js/swiper.min.js"></script>
+	<!-- OWL Carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+	<!-- Waypoint -->
+	<script src="assets/js/jquery.waypoints.min.js"></script>
+	<!-- Easy Waypoint -->
+	<script src="assets/js/easy-waypoint-animate.js"></script>
+	<!-- Scripts -->
+	<script src="assets/js/scripts.js"></script>
+	<!-- Carousel Features 1 -->
+	<script src="assets/js/carousel-features1.js"></script>
+	<!-- Carousel App Screen 1 -->
+	<script src="assets/js/carousel-appscreen1.js"></script>
+	<!-- Carousel Testimonial 1 -->
+	<script src="assets/js/carousel-testimonial1.js"></script>
+	<!-- Scroll2TopButton -->
+	<script src="assets/js/scrolltop.js"></script>
+</body>
 </html>
